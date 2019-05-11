@@ -1,4 +1,4 @@
-FROM nginx:1.14.0-alpine
+FROM registry.cn-shanghai.aliyuncs.com/rancher/nginx:alpine
 
 LABEL maintainer "Rancher Labs <support@rancher.com>"
 ARG ARCH=amd64
